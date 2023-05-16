@@ -18,8 +18,6 @@ import Service from './services/Service'
 import Skill from './skills/Skill'
 import Contact from './contact/Contact'
 function Home() {
-  const textToShow =
-    'Experienced Full Stack Developer with a demonstrated historyof working in the internet industry. Building Web applications with Angular, PHP, Laravel, Python, Django, Flask,MySQL/Postgres and some other cool libraries and frameworks.'
   return (
     <>
       <div className="home__container">
@@ -50,13 +48,12 @@ function Home() {
                 />
               </span>
               <div className="paragraph">
-                {/* <p>
+                <p>
                   Experienced Full Stack Developer with a demonstrated history
                   of working in the internet industry. Building Web applications
                   with Angular, PHP, Laravel, Python, Django, Flask,
                   MySQL/Postgres and some other cool libraries and frameworks.
-                </p> */}
-                <BouncingText clickable hoverable text={textToShow} />
+                </p>
               </div>
               <div className="icons">
                 <motion.div
