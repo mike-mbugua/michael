@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Dancing+Script:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #23272b;
+}
+:root {
+  --primary-color: #46108a;
+  --secondary-color: #f7b500;
+  --text-color: #fb0700;
+  --heading-color: white;
+  --background: #23272b;
+}
+
+.primary__span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+.primary__btn {
+  padding: 15px 20px;
+  border: 1px solid var(--heading-color);
+  background-color: var(--background);
+  color: white;
+  font-family: 'Syne Mono', monospace;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+}
+.primary__btn:hover {
+  border: 1px solid var(--text-color);
+  outline: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: 'Syne Mono', monospace;
+}
+p {
+  font-family: 'Syne Mono', monospace;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
