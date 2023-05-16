@@ -16,6 +16,7 @@ import { Link } from 'react-router-dom'
 import About from './about/About'
 import Service from './services/Service'
 import Skill from './skills/Skill'
+import Contact from './contact/Contact'
 function Home() {
   const textToShow =
     'Experienced Full Stack Developer with a demonstrated historyof working in the internet industry. Building Web applications with Angular, PHP, Laravel, Python, Django, Flask,MySQL/Postgres and some other cool libraries and frameworks.'
@@ -144,7 +145,11 @@ function Home() {
       <div id="service_container">
         <Service />
       </div>
-      <Skill />
+      <div>
+        <Skill />
+      </div>
+      <br />
+      <Contact />
     </>
   )
 }
