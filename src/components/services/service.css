@@ -1,0 +1,29 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+}
+.service__container {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+}
+.left__service,
+.center__service,
+.right__service {
+  cursor: pointer;
+  margin-top: 5%;
+  height: 90%;
+  width: 30%;
+  box-shadow: 0px 18px 50px -3px black;
+  border-radius: 10px;
+}
+.service__container h1,
+p {
+  margin: 10px;
+}
