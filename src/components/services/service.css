@@ -18,12 +18,38 @@
 .right__service {
   cursor: pointer;
   margin-top: 5%;
-  height: 90%;
-  width: 30%;
+  height: 100%;
+  width: 31%;
   box-shadow: 0px 18px 50px -3px black;
   border-radius: 10px;
 }
 .service__container h1,
 p {
   margin: 10px;
+}
+@media (max-width: 576px) {
+  .service {
+    max-width: 576px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    height: 100vh;
+  }
+  .service__container {
+    height: 100%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left__service,
+  .center__service,
+  .right__service {
+    cursor: pointer;
+    margin-top: 5%;
+    height: 80%;
+    width: 100%;
+    box-shadow: 0px 18px 50px -3px black;
+    border-radius: 10px;
+  }
 }

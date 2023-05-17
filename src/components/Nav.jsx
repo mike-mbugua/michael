@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Nav() {
   return (
     <div className="nav__container">
-      <motion.div
+      {/* <motion.div
         className="icon__container"
         whileHover={{
           scale: 1.3,
@@ -75,7 +75,7 @@ function Nav() {
           style={{ textShadow: '2px 2px 4px #000000' }}
         />
         <h5>Contact</h5>
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

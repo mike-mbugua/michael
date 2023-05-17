@@ -36,7 +36,9 @@ function Contact() {
           <br />
           <span className="phone">
             Email:
-            <span style={{ color: '#fb0700' }}>kamirimichael369@gmail.com</span>
+            <span style={{ color: '#fb0700', fontSize: 'large' }}>
+              kamirimichael369@gmail.com
+            </span>
           </span>
         </p>
 
@@ -108,6 +110,7 @@ function Contact() {
 
       {/*Form ---------------------------------------------------------  */}
       <div className="right__contact">
+        <h2>Send me a message/project</h2>
         <form action="">
           <div className="holder1">
             <div className="form1">
@@ -123,19 +126,18 @@ function Contact() {
             <label htmlFor="name">Email</label>
             <input type="email" placeholder="example@gmail.com" />
           </div>
-          <br />
+          {/* <br /> */}
           <div className="form1">
             <label htmlFor="name">Subject</label>
             <input type="text" placeholder="Subject" />
           </div>
-          <br />
+          {/* <br /> */}
           <div className="form1">
             <label htmlFor="name">Message</label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
+          <button className="primary__btn send">send Message</button>
         </form>
-        <button className="primary__btn">send Message</button>
-        <br />
       </div>
     </div>
   )

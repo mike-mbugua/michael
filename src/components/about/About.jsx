@@ -32,17 +32,17 @@ function About() {
             I also do integration of payment services such as M-Pesa, Paypal,
             Flutterwave and Stripe.
           </p>
-        </div>
-        <div className="about__btn">
-          <motion.div
-            whileHover={{
-              scale: 1.1,
-              transition: { duration: 1 },
-            }}
-            whileTap={{ scale: 1.4 }}
-          >
-            <button className="primary__btn">Contact Me</button>
-          </motion.div>
+          <div className="about__btn">
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
+              whileTap={{ scale: 1.3 }}
+            >
+              <button className="primary__btn">Contact Me</button>
+            </motion.div>
+          </div>
         </div>
       </div>
     </div>

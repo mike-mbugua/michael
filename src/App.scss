@@ -42,10 +42,20 @@ h6 {
   color: var(--heading-color);
   font-family: 'Syne Mono', monospace;
 }
+h1 {
+  font-size: 1rem;
+}
 p {
   font-family: 'Syne Mono', monospace;
   color: white;
 }
 a {
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 1.2rem;
+    // margin: 0px;
+  }
 }

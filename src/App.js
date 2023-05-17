@@ -3,6 +3,8 @@ import Home from './components/Home'
 import './App.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/about/About'
+import Skill from './components/skills/Skill'
+import Contact from './components/contact/Contact'
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* <Route path="#about-me" element={<About />} /> */}
       </Routes>
+      <Contact />
     </BrowserRouter>
   )
 }
