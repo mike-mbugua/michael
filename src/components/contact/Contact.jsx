@@ -51,7 +51,7 @@ function Contact() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="#instagram">
+            <a href="https://www.instagram.com/mikey_mbugua/">
               <FontAwesomeIcon
                 icon={faInstagram}
                 style={{ fontSize: '35', color: 'white' }}
@@ -66,7 +66,7 @@ function Contact() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="#instagram">
+            <a href="https://twitter.com/MichaelKamiri2">
               <FontAwesomeIcon
                 className="insta"
                 icon={faTwitter}
@@ -82,7 +82,7 @@ function Contact() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="#instagram">
+            <a href="www.linkedin.com/in/michael-kamiri-mbugua/">
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size={20}
@@ -98,7 +98,7 @@ function Contact() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="#instagram">
+            <a href="https://github.com/mike-mbugua/">
               <FontAwesomeIcon
                 icon={faGithub}
                 style={{ fontSize: '35', color: 'white' }}
