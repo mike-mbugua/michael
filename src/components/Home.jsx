@@ -169,11 +169,6 @@ function Home() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </Col>
         </Row>
       </Container>

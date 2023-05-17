@@ -11,27 +11,14 @@ function About() {
       <div className="right">
         <h1>Who i am</h1>
         <div className="about__paragraph">
-          <p>
+          <div className="correct">
             I am a full stack Developer based in kenya, with a passion for
-            creating beautiful and intuitive user experience
-          </p>
-          <br />
-          <p>
-            I have a strong background in both front-end and back-end
-            development. I am a self-motivated, hard-working and dedicated
-            individual. Also team player, and always looking to learn new skills
-            and techniques.
-          </p>
-          <br />
-          <p>
-            I do integration of third party services such as Firebase/ AWS /
-            Digital Ocean / Mailchimp and also have experience in building
-            RESTful APIs.
-          </p>
-          <p>
-            I also do integration of payment services such as M-Pesa, Paypal,
-            Flutterwave and Stripe.
-          </p>
+            creating beautiful and intuitive user experience <br />I have a
+            strong background in both front-end and back-end development. I am a
+            self-motivated, hard-working and dedicated individual. Also team
+            player, and always looking to learn new skills and techniques.
+          </div>
+
           <div className="about__btn">
             <motion.div
               whileHover={{

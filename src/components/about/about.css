@@ -30,6 +30,9 @@
 .about__img {
   width: 80%;
 }
+.correct {
+  font-family: 'Syne Mono', monospace;
+}
 .about__paragraph,
 h1 {
   margin: 10px;
@@ -44,12 +47,13 @@ h1 {
 @media (max-width: 576px) {
   .about__container {
     max-width: 576px;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     margin-top: 0;
   }
   .left {
-    height: 80vh;
+    height: 100%;
     width: 100%;
     margin-right: 0px;
     border-right: 1px dotted var(--text-color);
