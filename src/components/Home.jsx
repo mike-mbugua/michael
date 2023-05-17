@@ -59,9 +59,9 @@ function Home() {
                       <p>
                         Experienced Full Stack Developer with a demonstrated
                         history of working in the internet industry. Building
-                        Web applications with Angular, PHP, Laravel, Python,
-                        Django, Flask, MySQL/Postgres and some other cool
-                        libraries and frameworks.
+                        Web applications with React, Ruby on rails, Laravel,
+                        javascrippt, Angular, Typescript, MySQL/Postgres/MongoDb
+                        and some other cool libraries and frameworks.
                       </p>
                     </div>
                     <div className="icons">
