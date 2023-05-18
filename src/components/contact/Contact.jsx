@@ -82,7 +82,7 @@ function Contact() {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="www.linkedin.com/in/michael-kamiri-mbugua/">
+            <a href="https://linkedin.com/in/michael-kamiri-mbugua/">
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size={20}

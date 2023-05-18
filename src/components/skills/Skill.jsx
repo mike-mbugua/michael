@@ -38,7 +38,7 @@ function Skill() {
 
         {/*----------- DEVELOPMENT SKILLS ------------------------------------------ */}
         <div className="development__skills">
-          <h2>Development Skils</h2>
+          <h2>Development Skills</h2>
           <div className="skill-box">
             <h3>HTML</h3>
             <div className="skill__bar">
